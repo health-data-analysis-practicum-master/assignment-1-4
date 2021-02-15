@@ -1,5 +1,5 @@
 ---
-title: "Assignment 1-4: Final Module 1 Report"
+title: "Smoking and the risk of disease"
 author: "Your Name"
 date: "Today's date"
 output: html_document
@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Due Monday, February 24 @ midnight through Github**
+**Due Monday, February 22 @ midnight through Github**
 
 ```{r load_libraries, echo=FALSE, include=FALSE}
 #load any of the libraries you will use in this code chunk
@@ -35,7 +35,7 @@ nmes_data <- read_csv("nmesUNPROC.csv")
 ```
 
 ```{r q1_analysis, echo=FALSE}
-### put code to fit statistical mode here
+### put code to fit statistical model and produce table of results here
 ### you could use either your logistic regression model or your propensity scores model
 ### or you could include both and compare the results
 
@@ -51,7 +51,7 @@ Write up your results HERE in a paragraph to answer Question 1.1.  In your write
 ```
 
 ```{r q2_analysis, echo=FALSE}
-### put code to fit statistical mode here
+### put code to fit statistical model and produce table of results here
 
 ```
 
@@ -64,7 +64,7 @@ Write up your results HERE in a paragraph to answer Question 1.2.  In your write
 
 #* Next you need to **commit** the changes you've made to the document.  Click the colorful Git button at the top of the RStudio window and select "Commit" from the menu.
 
-#* In the window that opens, **stage** your changes by clicking the check boxes next to the `Asst1-4.Rmd` and `Asst1-4.html` files.
+#* In the window that opens, **stage** your changes by clicking the check boxes next to the `Asst1-4.Rmd` file.
 
 #* In the "Commit message" box, type a short description of what changes you've made, something like: `Completed assignment`
 
