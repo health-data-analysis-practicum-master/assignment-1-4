@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Due Monday, February 20 @ midnight through Github**
+**Due Monday, February 19 @ midnight through Github**
 
 ```{r load_libraries, echo=FALSE, include=FALSE}
 #load any of the libraries you will use in this code chunk
